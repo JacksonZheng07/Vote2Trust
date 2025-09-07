@@ -69,20 +69,14 @@ Vote2Trust leverages Algorand's blockchain technology to provide:
 - Register as eligible voters
 - System verifies eligibility
 
-### 2. Commit Phase
+### 2. Voting Phase
 - Voters select their choice
 - Generate random salt
 - Create hash of (vote + salt)
-- Submit hash to blockchain
-- Vote remains secret
+- Submit vote directly to blockchain
+- Vote is immediately counted
 
-### 3. Reveal Phase
-- Voters provide original vote + salt
-- System verifies hash matches commitment
-- Vote is revealed and counted
-- Results are tallied
-
-### 4. Results Phase
+### 3. Results Phase
 - Final vote counts displayed
 - Winner determination
 - Blockchain verification
