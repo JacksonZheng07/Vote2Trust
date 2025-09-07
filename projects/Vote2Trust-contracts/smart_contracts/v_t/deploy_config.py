@@ -8,15 +8,14 @@ logger = logging.getLogger(__name__)
 # define deployment behaviour based on supplied app spec
 def deploy() -> None:
     from smart_contracts.artifacts.v_t.v_t_client import (
-        HelloArgs,
-        VTFactory,
+        Vote2TrustFactory,
     )
 
     algorand = algokit_utils.AlgorandClient.from_environment()
     deployer_ = algorand.account.from_environment("DEPLOYER")
 
     factory = algorand.client.get_typed_app_factory(
-        VTFactory, default_sender=deployer_.address
+        Vote2TrustFactory, default_sender=deployer_.address
     )
 
     app_client, result = factory.deploy(
@@ -28,17 +27,34 @@ def deploy() -> None:
         algokit_utils.OperationPerformed.Create,
         algokit_utils.OperationPerformed.Replace,
     ]:
+        # Fund the contract with ALGO for storage
         algorand.send.payment(
             algokit_utils.PaymentParams(
-                amount=algokit_utils.AlgoAmount(algo=1),
+                amount=algokit_utils.AlgoAmount(algo=2),  # More ALGO for voting contract
                 sender=deployer_.address,
                 receiver=app_client.app_address,
             )
         )
 
-    name = "world"
-    response = app_client.send.hello(args=HelloArgs(name=name))
     logger.info(
-        f"Called hello on {app_client.app_name} ({app_client.app_id}) "
-        f"with name={name}, received: {response.abi_return}"
+        f"Vote2Trust contract deployed at {app_client.app_address} "
+        f"with app ID {app_client.app_id}"
     )
+    
+    # Create a sample poll for testing
+    try:
+        response = app_client.send.create_poll(
+            title="Sample Governance Vote",
+            description="Should we implement the new feature X in our protocol?",
+            options='["Yes", "No", "Abstain"]',
+            commit_duration=3600,  # 1 hour
+            reveal_duration=3600   # 1 hour
+        )
+        logger.info("Sample poll created successfully")
+        
+        # Start registration phase
+        app_client.send.start_registration()
+        logger.info("Registration phase started")
+        
+    except Exception as e:
+        logger.warning(f"Could not create sample poll: {e}")
