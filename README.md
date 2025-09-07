@@ -9,11 +9,15 @@
 
 **Vote2Trust is a secure, transparent, and anonymous voting platform built on Algorand blockchain using commit-reveal voting mechanism for democratic decision-making.**
 
-## 🎥 Demo Video
+## 🎥 Demo Videos
 
 > **📹 [Watch the Full Demo Video](https://youtu.be/Mbs6czw37mg)**
 > 
 > This video demonstrates the complete voting flow, smart contract interactions, and all features of the platform.
+
+> **📹 [Watch the Project Demo & Explanation](https://youtu.be/zAT3Fl71vNU)**
+> 
+> This video provides a comprehensive walkthrough of the Vote2Trust platform, explaining how the decentralized voting system works, the technical implementation on Algorand blockchain, and demonstrates the complete referendum voting process from registration to results.
 
 ## 📸 Screenshots
 
@@ -276,7 +280,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **GitHub**: [Vote2Trust Repository](https://github.com/JacksonZheng07/Vote2Trust)
-- **Demo Video**: [Watch the Demo](https://youtu.be/Mbs6czw37mg)
+- **Demo Videos**: 
+  - [Full Demo Video](https://youtu.be/Mbs6czw37mg)
+  - [Project Demo & Explanation](https://youtu.be/zAT3Fl71vNU)
 - **Email**: your-email@example.com
 - **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
 
