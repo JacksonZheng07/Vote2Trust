@@ -1,5 +1,5 @@
-import ProductionVotingDashboard from './components/ProductionVotingDashboard'
+import PublicReferendumDashboard from './components/PublicReferendumDashboard'
 
 export default function App() {
-  return <ProductionVotingDashboard />
+  return <PublicReferendumDashboard />
 }
