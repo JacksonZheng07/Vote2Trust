@@ -51,12 +51,12 @@
 ## 📹 Video Requirements
 
 ### Demo Video (README)
-- [ ] **Duration**: 3-5 minutes
-- [ ] **Content**: Complete voting flow demonstration
-- [ ] **Audio**: Clear narration explaining each step
-- [ ] **Quality**: HD video (1080p minimum)
-- [ ] **Platform**: YouTube or similar hosting service
-- [ ] **Link**: [Your Demo Video Link]
+- [x] **Duration**: 3-5 minutes
+- [x] **Content**: Complete voting flow demonstration
+- [x] **Audio**: Clear narration explaining each step
+- [x] **Quality**: HD video (1080p minimum)
+- [x] **Platform**: YouTube or similar hosting service
+- [x] **Link**: [https://youtu.be/Mbs6czw37mg](https://youtu.be/Mbs6czw37mg)
 
 ### Presentation Video (Loom-style)
 - [ ] **Duration**: 10-15 minutes
@@ -196,8 +196,8 @@
 
 ## 📞 Contact Information
 
-- **GitHub Repository**: [Your Repository Link]
-- **Demo Video**: [Your Demo Video Link]
+- **GitHub Repository**: [https://github.com/JacksonZheng07/Vote2Trust](https://github.com/JacksonZheng07/Vote2Trust)
+- **Demo Video**: [https://youtu.be/Mbs6czw37mg](https://youtu.be/Mbs6czw37mg)
 - **Loom Video**: [Your Loom Video Link]
 - **Canva Presentation**: [Your Presentation Link]
 - **Email**: [Your Email]

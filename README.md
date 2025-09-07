@@ -1,4 +1,4 @@
-# 🗳️ Vote2Trust - Decentralized Voting Platform on Algorand
+ # 🗳️ Vote2Trust - Decentralized Voting Platform on Algorand
 
 [![Algorand](https://img.shields.io/badge/Built%20on-Algorand-blue)](https://algorand.org)
 [![React](https://img.shields.io/badge/Frontend-React-blue)](https://reactjs.org)
@@ -11,7 +11,7 @@
 
 ## 🎥 Demo Video
 
-> **📹 [Watch the Full Demo Video](https://youtu.be/your-demo-video-link)**
+> **📹 [Watch the Full Demo Video](https://youtu.be/Mbs6czw37mg)**
 > 
 > This video demonstrates the complete voting flow, smart contract interactions, and all features of the platform.
 
@@ -285,7 +285,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **GitHub**: [Vote2Trust Repository](https://github.com/your-username/vote2trust)
+- **GitHub**: [Vote2Trust Repository](https://github.com/JacksonZheng07/Vote2Trust)
+- **Demo Video**: [Watch the Demo](https://youtu.be/Mbs6czw37mg)
 - **Email**: your-email@example.com
 - **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
 
