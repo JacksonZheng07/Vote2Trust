@@ -17,21 +17,20 @@
 
 ## 📸 Screenshots
 
-### Main Dashboard
-![Main Dashboard](docs/screenshots/dashboard.png)
-*Beautiful referendum interface with gradient design and glassmorphism effects*
+### Public Referendum Dashboard
+![Public Referendum Dashboard](docs/screenshots/referendum-dashboard.png)
+*Complete referendum interface showing constitutional amendment proposal, voting results, and Algorand blockchain transactions*
 
-### Voting Process
-![Voting Process](docs/screenshots/voting.png)
-*Secure voting with cryptographic salt and hash generation*
+### Voting Results & Transaction History
+![Voting Results & Transactions](docs/screenshots/voting-results.png)
+*Final referendum results with "Yes" winning, complete transaction history showing commit and registration phases with cryptographic hashes and salts*
 
-### Transaction History
-![Transaction History](docs/screenshots/transactions.png)
-*Real-time Algorand blockchain transaction tracking*
-
-### Results Display
-![Results](docs/screenshots/results.png)
-*Transparent and verifiable voting results*
+### Key Features Demonstrated
+- **Constitutional Amendment Proposal**: Clear referendum question about governance framework
+- **Voting Results**: Transparent results showing "Yes: 1 vote, No: 0 votes, Abstain: 0 votes"
+- **Algorand Transactions**: Real blockchain transactions with hashes, salts, and 0.001 ALGO fees
+- **Referendum Timeline**: Complete voting phases from registration to completion
+- **Cryptographic Security**: Display of transaction hashes and salts for transparency
 
 ## 🎯 Problem Statement
 
