@@ -21,9 +21,6 @@
 ![Public Referendum Dashboard](docs/screenshots/referendum-dashboard.png)
 *Complete referendum interface showing constitutional amendment proposal, voting results, and Algorand blockchain transactions*
 
-### Voting Results & Transaction History
-![Voting Results & Transactions](docs/screenshots/voting-results.png)
-*Final referendum results with "Yes" winning, complete transaction history showing commit and registration phases with cryptographic hashes and salts*
 
 ### Key Features Demonstrated
 - **Constitutional Amendment Proposal**: Clear referendum question about governance framework
